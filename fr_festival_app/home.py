@@ -31,7 +31,7 @@ st.markdown(
 # )
 
 # Display the logo image
-st.sidebar.image("../photos/logo1.png", width=200)
+st.sidebar.image("photos/logo1.png", width=200)
 
 st.title("Welcome to my French Festival App")
 st.header("By ARA group")
