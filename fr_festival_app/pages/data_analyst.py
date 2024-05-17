@@ -8,8 +8,8 @@ import plotly.express as px
 st.title("Data Preparations")
 st.subheader("Raw Database of Fetivals in France")
 
-data_url_raw = "../data/festivals_global_festivals.csv"
-data_url_clean = "../data/df_clean_2.csv"
+data_url_raw = "data/festivals_global_festivals.csv"
+data_url_clean = "data/df_clean_2.csv"
 
 
 @st.cache_data
