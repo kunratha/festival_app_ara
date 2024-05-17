@@ -42,7 +42,7 @@ st.title("Image Gallery")
 
 # Define a list of image file paths
 image_paths = [
-    "../photos/background.png",
+    "photos/background.png",
     # Add more image paths as needed
 ]
 
