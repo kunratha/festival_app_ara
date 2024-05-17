@@ -16,7 +16,7 @@ stop_word += stopwords.words("english")
 
 # Charger le dataset
 df = pd.read_csv(
-    "Ordered_NLP_preprocessed_df.csv"
+    "fr_festival_app/pages/Ordered_NLP_preprocessed_df.csv"
 )  # Remplacez par le chemin réel de votre fichier
 
 # Renommer les colonne pour être plus parlant
