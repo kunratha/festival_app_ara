@@ -1,0 +1,5 @@
+ body {
+     background-image: url('../photos/musics1.jpg');
+     /* Replace 'background.jpg' with your image path or URL */
+     background-size: cover;
+ }
