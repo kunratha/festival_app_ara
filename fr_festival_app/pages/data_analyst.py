@@ -8,8 +8,8 @@ import plotly.express as px
 st.title("Data Preparations")
 st.subheader("Raw Database of Fetivals in France")
 
-data_url_raw = "C:/wildcode_school_courses/mini_porjet_ARA_group/data/festivals_global_festivals.csv"
-data_url_clean = "C:/wildcode_school_courses/mini_porjet_ARA_group/data/df_clean_2.csv"
+data_url_raw = "/Users/mac/Desktop/festival_app_ara/data/festivals_global_festivals.csv"
+data_url_clean = "/Users/mac/Desktop/festival_app_ara/data/df_clean_2.csv"
 
 
 @st.cache_data
@@ -86,7 +86,7 @@ fig = px.bar(
     y="Nombre de festivals",
     title="Top 10 années avec le plus grand nombre de festivals en fonction des type",
     color="Type",  # Changer la couleur des barres en fonction de la colonne 'Type'
-    color_discrete_sequence=px.colors.sequential.thermal_r,
+    color_discrete_sequence=px.colors.sequential.thermal_r, width= 1000
 )
 
 # Ajouter des étiquettes de texte au-dessus des barres
@@ -137,7 +137,7 @@ fig = px.scatter(
     title="Répartition des festivals par année et par région (Top 5)",
     color="Type",  # Changer la couleur des bulles en fonction de la colonne 'Type'
     size_max=100,  # Définir la taille maximale des bulles
-    animation_frame="Annee",
+    animation_frame="Annee", width= 1300
 )  # Animation basée sur l'année
 
 # Afficher le graphique interactif

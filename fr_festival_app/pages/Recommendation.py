@@ -16,8 +16,8 @@ stop_word += stopwords.words("english")
 
 # Charger le dataset
 df = pd.read_csv(
-    "C:/wildcode_school_courses/mini_porjet_ARA_group/fr_festival_app/pages/Ordered_NLP_preprocessed_df.csv"
-)  # Remplacez par le chemin réel de votre fichier
+    "/Users/mac/Desktop/festival_app_ara/fr_festival_app/pages/Ordered_NLP_preprocessed_df.csv"
+)
 
 # Renommer les colonne pour être plus parlant
 nouveaux_noms = {
